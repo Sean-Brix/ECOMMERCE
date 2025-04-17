@@ -1,0 +1,67 @@
+#TopProductsLabel{
+    border: 1.5px solid rgb(195, 0, 255);
+    padding: 20px;
+    height: 20px;
+    width: 1151px;
+    background-color: rgba(245, 137, 255, 0.274);
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 75);
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+}
+#TopProductsList {
+    height: 225px;
+    width: 1191px; 
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;     
+    overflow-y: hidden;  
+    border: 1px solid rgba(87, 87, 87, 0.247);
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#TopProductsList::-webkit-scrollbar {
+    height: 15px; 
+}
+#TopProductsList::-webkit-scrollbar-thumb {
+    background: rgba(240, 123, 255, 0.3); 
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+}
+#TopProductsList::-webkit-scrollbar-thumb:hover{
+    background: rgba(230, 43, 255, 0.3); 
+}
+.box{
+    height: 180px;
+    width: 200px;
+    margin: 1px;;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border: 1px solid rgba(87, 87, 87, 0.247);
+    cursor: pointer;
+}
+.box:hover{
+    background-color: rgb(235, 235, 235);
+    transition: 0.3s;
+}
+.topProductImg{
+    height: 150px;
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+}
+.text{
+    padding: 10px;
+}
+#ext{
+    height: 1000px;
+}

@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(to top, #ffffff, #8c00ff);
+    display: flex;
+    flex-direction: column;
+}
+#mainlogo{
+    height: 100px;
+    width: 125px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#cart{
+    position: absolute;
+    right: 18%;
+    top: 6.5%; 
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#searchbar {
+    height: 35px;
+    width: 40%;
+    align-self: center;
+    position: absolute;
+    left: 30%;
+    top: 6%;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-indent: 10px;
+    padding-right: 35px; /* Add space for the icon */
+    background: #f0f0f0 url('/View/resource/img/searchicon.png') no-repeat right center;
+    background-size: 30px 30px; /* Adjust size of the icon */
+    background-position: 99% center;
+}
+input::placeholder {
+    color: rgba(137, 43, 226, 0.548);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:focus{
+    outline: none;
+}
+#NavbarSpecs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    justify-content: space-around;
+}
+.SpecsDesign{
+   /* border: 1px solid rgba(138, 0, 138, 0.103);*/
+    padding: 2px 20px 2px 20px;
+    background: linear-gradient(to bottom, rgba(235, 155, 255, 0.7), rgba(120, 9, 211, 0.7)); 
+    margin: 2px;
+    color: rgba(255, 255, 255, 10);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+.SpecsDesign:hover{
+    background-color: #ffffff;
+    transition: 0.2s;
+}
+.SpecsDesign:active{
+    background-color: black;
+    transition: 0.1s;
+}
+.sep{
+    display: flex;
+    flex-direction: row; }
+#accicon{
+    height: 30px;
+    width: 30px; }
+#signup{
+    font-weight: bold; }
+
+#login{
+    font-weight: bold; }
+#arrowdown{
+    height: 20px;
+    width: 20px;
+    margin-top: 4px; }
+#globe{
+    margin-right: 4px;
+    height: 25px;
+    width: 25px; }
+#bell{
+    height: 25px;
+    width: 25px; }
+#help{
+    height: 25px;
+    width: 25px;
+    margin: 0 2px 0 2px; }
+#ig{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 0 10px;
+}
+#fb{
+    height: 20px;
+    width: 20px;
+}
+
+
