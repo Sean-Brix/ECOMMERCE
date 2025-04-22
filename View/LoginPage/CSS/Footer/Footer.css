@@ -1,6 +1,7 @@
 #spacer{
     height: 820px;
     position: relative;
+    z-index: -1;
 }
 #footerhaha{
     position: absolute;
