@@ -1,0 +1,25 @@
+#spacer{
+    height: 820px;
+    position: relative;
+}
+#footerhaha{
+    position: absolute;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to bottom, #ad57f300, #8c00ff);
+    flex-direction: column;
+}
+p{  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+    width: 70%;
+}
+h4{
+    justify-self: center;
+    opacity: 30%;
+}
+
