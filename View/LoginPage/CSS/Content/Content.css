@@ -76,3 +76,52 @@ hr{
     border: none;
     width: 190px;
 }
+#FBgoogle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.FBgooglebtn{
+    display: flex;
+    flex-direction: row;
+    padding: 3px 40px 3px 35px;
+    width: 205px;
+    margin: 15px 20px 15px 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border: 1px solid rgba(195, 0, 255, 0.055);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.FBgooglebtn:hover{
+    background-color: rgb(226, 226, 226);
+    transition: 0.2s;
+}
+#fbimg{
+    height: 25px;
+    width: 25px;
+    padding: 0 10px 0 0;
+}
+#gglimg{
+    height: 40px;
+    width: 40px;
+    padding: 0 1px 0 0;
+}
+#newToElibskanaDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+h4{
+    opacity: 20%;
+    margin-right: 10px;
+}
+#signUp{
+    text-decoration: none;
+    color: rgb(153, 0, 241);
+    font-weight: bold;
+}
