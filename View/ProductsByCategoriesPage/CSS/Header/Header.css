@@ -1,0 +1,83 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-container {
+    width: 950px;
+    height: 235px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-right: 10px;
+  }
+  
+  /* Hide input buttons */
+  .slider-container input {
+    display: none;
+  }
+  
+  /* The slides wrapper */
+  .slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  /* Each individual image */
+  .slides img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  
+  /* Navigation buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    opacity: 15%;
+  }
+  .next:hover{
+    opacity: 80%;
+  }
+  .prev{
+    opacity: 15%;
+  }
+  .prev:hover{
+    opacity: 80%;
+  }
+  
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+  /* Styling for the input radio buttons */
+  #slide1:checked ~ .slides {
+    transform: translateX(0);
+  }
+  
+  #slide2:checked ~ .slides {
+    transform: translateX(-100%);
+  }
+  
+  #slide3:checked ~ .slides {
+    transform: translateX(-200%);
+  }
+  
+  /* You can add more slides by expanding the input and CSS rule above */

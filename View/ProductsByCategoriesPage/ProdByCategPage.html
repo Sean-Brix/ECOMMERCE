@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Header/Header.css">
+    <link rel="stylesheet" href="./CSS/Nav/Nav.css">
+    <link rel="stylesheet" href="./CSS/Content/Content.css">
+</head>
+<body>
+
+        <!-- NAVIGATION BAR ------------------------------------------ NAVIGATION BAR --------------------------------------------- NAVIGATION BAR -->
+
+    <nav>
+        <img id="mainlogo" src="../resource/img/Elibs ka na-Photoroom.png" >
+        <input type="text" name="searchbar" id="searchbar" placeholder="Search">
+        <img id="cart" src="../resource/icon/whitecart-Photoroom.png">
+        <div id="NavbarSpecs">
+            <div class="sep">
+                <div class="SpecsDesign"> <img id="accicon" src="../resource/icon/acc-Photoroom.png" > Account</div>
+                <div class="SpecsDesign"> <img id="bell" src="../resource/icon/bell-Photoroom.png">Notification</div>
+                <div class="SpecsDesign">Seller Centre</div> 
+                <div class="SpecsDesign">Follow us on 
+                    <img id="ig" src="../resource/icon/ig-Photoroom.png"> <img id="fb" src="../resource/icon/fb.png"></div>                     
+            </div>
+            <div class="sep">               
+                <div class="SpecsDesign"><img id="help" src="../resource/icon/helpicon-Photoroom.png">Help</div>
+                <div class="SpecsDesign"><img id="globe" 
+                    src="../resource/icon/globe-Photoroom.png"> Language <img id="arrowdown" 
+                    src="../resource/icon/arrowdown-Photoroom.png"></div>
+                <div class="SpecsDesign" id="signup">Sign up</div>
+                <div class="SpecsDesign" id="login">Login</div>
+            </div>  
+        </div>
+    </nav>
+
+
+        <!-- HEADER WITH IMAGE SLIDER------------------------------HEADER WITH IMAGE SLIDER------------------------------------HEADER WITH IMAGE SLIDER---->
+
+    <div id="header">     
+        <header class="slider-container">
+            <!-- Slider Inputs (Radio buttons to control slides) -->
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            
+            <!-- Slides (Images) -->
+            <div class="slides">
+            <img src="./resource/img/Untitled design.png" >
+            <img src="./resource/img/Untitled design2.png" >
+            <img src="./resource/img/Untitled design.png" >
+            <img src="./resource/img/Untitled design2.png" >
+            
+            </div>
+  
+            <!-- Navigation buttons (Optional for custom navigation) -->
+            <label for="slide1" class="prev">&#10094;</label>
+            <label for="slide2" class="next">&#10095;</label>                   
+        </header>     
+    </div>
+
+    <!-- CONTENT------------------------------CONTENT------------------------------------CONTENT---->
+
+    <div id="Container">
+        <div id="sidebar">
+
+        </div>
+        <div id="products">
+            <div id="sortbybar">   
+                <div id="SortBy">           
+                Sort By
+                </div>  
+                <div id="Popular">
+                    Popular
+                </div>
+                <div id="Latest">
+                    Latest
+                </div>
+                
+                <div class="dropdown">
+                    <label for="priceSort">Price:</label>
+                    <select id="priceSort">
+                      <option value="highToLow">High to Low</option>
+                      <option value="lowToHigh">Low to High</option>
+                    </select>
+                </div>
+
+                <div id="PageChange">
+                    <div class="lessthangrtthan">
+                        <
+                    </div>
+                    <div class="lessthangrtthan">
+                        >
+                    </div>
+                </div>
+                
+            </div>
+            <div id="Grid">
+                <div id="parent">
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/prod1 (1).jpg">
+                            <div class="Details">
+                                <div id="holder">
+                                    <div class="ProductLabel">
+                                        Liptint ata
+                                    </div> 
+                                    <div class="ProductSaleStatus">
+                                        Sulit Deal
+                                    </div>
+                                    <div class="ProductPrice">
+                                        <img class="peso" src="../resource/img/peso.png">
+                                        169
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/prod2.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Cannabis Oil
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    130
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/prod3.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Diko alam basta pambabae
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    40
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/prod4.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Pefume Shit
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                610
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/camera.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Product Name
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    40
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/jeans.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Dickies
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    500
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/eababnakadress.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Dress di kasama eabab
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    980
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/jeansulet.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Vans ata na jeans
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    670
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/toy1.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Cars 
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    129
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/shoeswhite.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Adibasbas
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    3,799
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/sweater.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Sweater Amoy Chix
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    450
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/tupa.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Damit di kasama tupa
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    230
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/shoesgreen.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Nike Toffer Signature
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    4,799
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/robot.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Robot Action Figure
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    1,399
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/shoebalat.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Leather Shoes
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    2,950
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/iphone.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Tulfone
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    25,299
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/sldies.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Slidez
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    250
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/headppon.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Headphone Mabango
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    2,460
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/prod1 (1).jpg">
+                            <div class="Details">
+                                <div id="holder">
+                                    <div class="ProductLabel">
+                                        Liptint ata
+                                    </div> 
+                                    <div class="ProductSaleStatus">
+                                        Sulit Deal
+                                    </div>
+                                    <div class="ProductPrice">
+                                        <img class="peso" src="../resource/img/peso.png">
+                                        169
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="Product">
+                        <img class="Prodpicts" src="../resource/img/DlyProdPics/prod2.jpg">
+                        <div class="Details">
+                            <div id="holder">
+                                <div class="ProductLabel">
+                                    Cannabis Oil
+                                </div>
+                                <div class="ProductSaleStatus">
+                                    Sulit Deal
+                                </div>
+                                <div class="ProductPrice">
+                                    <img class="peso" src="../resource/img/peso.png">
+                                    130
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
