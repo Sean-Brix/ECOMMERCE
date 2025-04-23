@@ -9,15 +9,6 @@
     width: 1000px;
 }
 
-/* SIDE BAR */ /* SIDE BAR */ /* SIDE BAR */
-#sidebar{
-    height: 1300px;
-    width: 300px;
-    background-color: blueviolet;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
  /* SORT BY BAR */  /* SORT BY BAR */ 
 #sortbybar{
     height: 55px;
