@@ -1,6 +1,6 @@
 #Container{
     width: 1200px;
-    height: 1500px;
+    height: 1300px;
     margin: 30px 348.5px 0 348.5px;
     display: flex;
     flex-direction: row;
@@ -81,6 +81,7 @@ select:focus {
 }
 #products{
     width: 1000px;
+    height: 1000px;
 }
 hr{ 
     height: 2px;

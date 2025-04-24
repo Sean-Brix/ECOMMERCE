@@ -1,0 +1,40 @@
+#logintoseemorebtn{
+    margin: 40px 0 80px 0;
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(224, 206, 241);
+    cursor: pointer;
+    border: 1px solid rgba(137, 43, 226, 0.301);
+}
+#logintoseemorebtn:hover{
+    background-color: rgba(137, 43, 226, 0.185);
+}
+#hrto{
+    border: none;
+    height: 10px;
+    margin: 0%;
+    width: 100%;
+    background-color: #8c00ff;
+}
+#footernanginamo{
+    background-color: rgba(137, 43, 226, 0.123);
+}
+#footerbody{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+span{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 70% ;
+}
