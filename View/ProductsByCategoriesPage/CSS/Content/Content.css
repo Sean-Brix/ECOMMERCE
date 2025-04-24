@@ -5,10 +5,6 @@
     display: flex;
     flex-direction: row;
 }
-#products{
-    width: 1000px;
-}
-
  /* SORT BY BAR */  /* SORT BY BAR */ 
 #sortbybar{
     height: 55px;
@@ -30,7 +26,7 @@
     border-radius: 3px;
     height: 38px;
     width: 80px;
-    background-color: blueviolet;
+    background-color: #8c00ffcc;
     align-content: center;
     padding: 0 5px 0 35px;
     margin: 0 30px 0 0;
@@ -48,6 +44,7 @@
 #PageChange{
     display: flex;
     margin-left: 270px;
+    cursor: pointer;
 }
 .lessthangrtthan{
     border: 1px solid rgb(179, 179, 179);
@@ -80,6 +77,9 @@ select:focus {
 
 /* PRODUCT SECTION */ /* PRODUCT SECTION */
 #Grid{
+    width: 1000px;
+}
+#products{
     width: 1000px;
 }
 hr{ 
@@ -123,7 +123,7 @@ hr{
 }
 #holder{
     height: 90%;
-    width: 150px;
+    width: 175px;
     display: flex;
     flex-direction: column;
     padding: 6px;
@@ -150,6 +150,11 @@ hr{
     flex-direction: row;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+.buycount{
+    margin-left: 60px;
+    font-size: 12px;
+    font-weight: bold;
 }
 .peso{
     height: 20px;

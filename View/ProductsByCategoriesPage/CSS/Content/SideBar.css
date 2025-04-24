@@ -2,7 +2,7 @@
 #sidebar{
     height: 1300px;
     width: 300px;
-    background-color: rgb(179, 119, 235);
+    background-color: #8c00ffcc;
     margin-right: 10px;
     border-radius: 5px;
     display: flex;
@@ -12,20 +12,23 @@
 #Categories{
     margin-top: 5px;
     width: 180px;
-    height: 400px;
-    border: 1px solid black;
+    height: 300px;
+ 
     display: flex;
     flex-direction: column; 
 }
 #AllCategories{
     width: 180px;
     height: 40px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(255, 255, 255);
 }
 a{
     padding: 15px 8px 8px 20px;
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
 }
