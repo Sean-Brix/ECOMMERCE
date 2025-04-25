@@ -3,21 +3,34 @@
     height: 1300px;
     width: 300px;
     background-color: #8c00ffcc;
-    margin-right: 10px;
     border-radius: 5px;
+    margin-right: 5px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+#SearchFilter{
+    margin-top: 5px;
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
 }
 #Categories{
     margin-top: 5px;
     width: 180px;
     height: 300px;
- 
     display: flex;
     flex-direction: column; 
 }
-#AllCategories{
+a{
+    padding: 15px 8px 8px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.Label{
     width: 180px;
     height: 40px;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -25,10 +38,4 @@
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
-}
-a{
-    padding: 15px 8px 8px 20px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 13px;
 }
