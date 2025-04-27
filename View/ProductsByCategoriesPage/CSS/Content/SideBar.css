@@ -11,7 +11,13 @@
     padding-left: 10px;
 }
 #SearchFilter{
-    margin-top: 5px;
+    margin-top: 90px;
+    width: 180px;
+    height: 270px;
+    display: flex;
+    flex-direction: column; 
+}
+#Rating{
     width: 180px;
     height: 300px;
     display: flex;
@@ -20,7 +26,7 @@
 .Categories{
     margin-top: 5px;
     width: 180px;
-    height: 300px;
+    height: 270px;
     display: flex;
     flex-direction: column; 
 }
@@ -43,16 +49,16 @@ img{
     height: 40px;
     margin-right: 10px;
 }
-h4{
-    margin: 25px 0 15px 10px;
-    color: aliceblue;
-    font-weight: 100;
-}
 .star{
     height: 15px;
     margin: 3px 3px 10px 3px;
 }
-
+.anchorStar{
+    padding: 0;
+}
+#starsholder{
+    margin-top: 20px;
+}
 .rating{
     display: flex;
     flex-direction: row;
@@ -60,4 +66,16 @@ h4{
     align-items: center;
     font-size: 15px;
     color: aliceblue;
+}
+form{
+    color: aliceblue;
+    margin-top: 20px;
+    padding-left: 5px;
+    height: 200px;
+}
+label{
+    margin: 0;
+    font-weight: 100;
+    font-size: 13.5px;
+
 }
