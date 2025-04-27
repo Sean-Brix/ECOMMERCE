@@ -125,3 +125,27 @@ h4{
     color: rgb(153, 0, 241);
     font-weight: bold;
 }
+#Gotomainpage{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.877);
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+#tomainpage{
+    margin-top: 45px;
+    margin-left: 5px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 22px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+#tomainpage:hover{
+    background-color: rgb(125, 11, 233);
+    transition: 0.2s;
+}
