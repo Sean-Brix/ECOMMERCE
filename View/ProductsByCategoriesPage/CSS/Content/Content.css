@@ -55,6 +55,7 @@
 /* PRICE DROP DOWN */ /* PRICE DROP DOWN */
 .dropdown {
     display: inline-block;
+    margin-left: 20px;
 }
 label {
     font-weight: bold;
