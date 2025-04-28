@@ -8,7 +8,6 @@ nav{
     display: flex;
     flex-direction: column;
 }
-
 #mainlogo{
     height: 100px;
     width: 125px;
@@ -86,7 +85,6 @@ input:focus{
     font-weight: bold; }
 
 #login{
-
     font-weight: bold; }
 #arrowdown{
     height: 20px;
@@ -112,6 +110,8 @@ input:focus{
     height: 20px;
     width: 20px;
 }
-#loginpage{
-    padding: 0;
+a{
+    text-decoration: none;
+    color: white;
 }
+
