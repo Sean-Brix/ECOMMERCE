@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
 }
@@ -90,10 +92,12 @@ input:focus{
     height: 20px;
     width: 20px;
     margin-top: 4px; }
+
 #globe{
     margin-right: 4px;
     height: 25px;
     width: 25px; }
+    
 #bell{
     height: 25px;
     width: 25px; }
@@ -115,3 +119,23 @@ a{
     color: white;
 }
 
+/* Dropdown Language */
+#languageDropdown{
+    margin: 0px  0px 0px 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background-color: black;
+    background: linear-gradient(to bottom, rgba(235, 155, 255, 0.7), rgba(120, 9, 211, 0.7));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#languageDropdown option{
+
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
