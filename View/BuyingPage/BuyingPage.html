@@ -1,88 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buying Page</title>
-    <link rel="stylesheet" href="./CSS/Nav/Nav.css">
-    <link rel="stylesheet" href="./CSS/Content/Content.css">
-    <link rel="stylesheet" href="./CSS/Content/Content2.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./CSS/Nav/Nav.css" />
+    <link rel="stylesheet" href="./CSS/Content/Content.css" />
+    <link rel="stylesheet" href="./CSS/Content/Content2.css" />
+  </head>
+  <body>
     <!-- NAVIGATION BAR ------------------------------------------ NAVIGATION BAR --------------------------------------------- NAVIGATION BAR -->
     <nav>
-        <div>
-            <a href="../MainPage/MainPage.html"><img id="mainlogo" src="../resource/img/Elibs ka na-Photoroom.png" ></a>
+      <div>
+        <a href="../MainPage/MainPage.html"
+          ><img id="mainlogo" src="../resource/img/Elibs ka na-Photoroom.png"
+        /></a>
+      </div>
+      <input type="text" name="searchbar" id="searchbar" placeholder="Search" />
+      <img id="cart" src="../resource/icon/whitecart-Photoroom.png" />
+      <div id="NavbarSpecs">
+        <div class="sep">
+          <div class="SpecsDesign">
+            <img id="accicon" src="../resource/icon/acc-Photoroom.png" />
+            Account
+          </div>
+          <div class="SpecsDesign">
+            <img
+              id="bell"
+              src="../resource/icon/bell-Photoroom.png"
+            />Notification
+          </div>
+          <div class="SpecsDesign">
+            <img id="globe" src="../resource/icon/globe-Photoroom.png" />
+            Language
+            <select id="languageDropdown">
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="fr">French</option>
+              <option value="de">German</option>
+              <option value="zh">Chinese</option>
+            </select>
+          </div>
+          <div class="SpecsDesign">
+            Follow us on
+            <img id="ig" src="../resource/icon/ig-Photoroom.png" />
+            <img id="fb" src="../resource/icon/fb.png" />
+          </div>
         </div>
-        <input type="text" name="searchbar" id="searchbar" placeholder="Search">
-        <img id="cart" src="../resource/icon/whitecart-Photoroom.png">
-        <div id="NavbarSpecs">
-            <div class="sep">               
-                <div class="SpecsDesign"> <img id="accicon" src="../resource/icon/acc-Photoroom.png" > Account</div>
-                <div class="SpecsDesign"> <img id="bell" src="../resource/icon/bell-Photoroom.png">Notification</div>
-                <div class="SpecsDesign"><img id="globe" 
-                    src="../resource/icon/globe-Photoroom.png"> Language 
-                    <select id="languageDropdown">
-                        <option value="en">English</option>
-                        <option value="es">Spanish</option>
-                        <option value="fr">French</option>
-                        <option value="de">German</option>
-                        <option value="zh">Chinese</option>
-                    </select>
-                </div>          
-                <div class="SpecsDesign">Follow us on 
-                    <img id="ig" src="../resource/icon/ig-Photoroom.png"> <img id="fb" src="../resource/icon/fb.png"></div>                     
-            </div>
-            <div class="sep">               
-                <div class="SpecsDesign"><img id="help" src="../resource/icon/helpicon-Photoroom.png">Help</div>
-                <div class="SpecsDesign">Seller Centre</div> 
-                <div class="SpecsDesign"> Start Selling </div>               
-            </div>  
+        <div class="sep">
+          <div class="SpecsDesign">
+            <img id="help" src="../resource/icon/helpicon-Photoroom.png" />Help
+          </div>
+          <div class="SpecsDesign">Seller Centre</div>
+          <div class="SpecsDesign">Start Selling</div>
         </div>
+      </div>
     </nav>
 
     <div id="container">
-        <div id="Pics">
-            <div id="ColPics">
+      <div id="Pics">
+        <div id="ColPics">
+          <div id="otherpics">
+            <div class="otherP"></div>
+            <div class="otherP"></div>
+            <div class="otherP"></div>
+            <div class="otherP"></div>
+            <div class="otherP"></div>
+          </div>
+        </div>
+      </div>
+      <div id="Deets">
+        <div id="productname"><h2>Product name</h2></div>
+        <div id="ratings">
+          <div class="nums">
+            4.9
+            <img class="star" src="../resource/img/goldstar.png" />
+            <img class="star" src="../resource/img/goldstar.png" />
+            <img class="star" src="../resource/img/goldstar.png" />
+            <img class="star" src="../resource/img/goldstar.png" />
+            <img class="star" src="../resource/img/goldstar.png" />
+          </div>
+          <div id="ratingscount">
+            <div class="nums">29</div>
+            <div id="ratinglabel">Ratings</div>
+          </div>
+        </div>
+        <div id="bgprice">
+          <div id="price">399</div>
+        </div>
+        <div id="moredeets">
+          <div id="vouchers">
+            <div id="voucherlabel">Shop Vouchers</div>
+            <div class="percentoff">
+              <img class="peso" src="../resource/img/peso.png" />12 OFF
+            </div>
+            <div class="percentoff">
+              <img class="peso" src="../resource/img/peso.png" />15 OFF
+            </div>
+            <div class="percentoff">
+              <img class="peso" src="../resource/img/peso.png" />20 OFF
+            </div>
+            <div class="percentoff">
+              <img class="peso" src="../resource/img/peso.png" />18 OFF
+            </div>
+            <div class="percentoff">
+              <img class="peso" src="../resource/img/peso.png" />8 OFF
+            </div>
+          </div>
 
-                <div id="otherpics">
-                    <div class="otherP"></div>
-                    <div class="otherP"></div>
-                    <div class="otherP"></div>
-                    <div class="otherP"></div>
-                    <div class="otherP"></div>
+          <div id="shippingsection">
+            <div id="shiplabel">Shipping</div>
+            <img id="truckicon" src="../resource/icon/delivery-truck.png" />
+            <div id="shippingdeets">
+              <div id="shiplocation">
+                <div class="sep">Shipping To</div>
+                <div id="location">
+                  <select id="locationsDropdown">
+                    <option value="Mm">Metro Manila</option>
+                    <option value="If">Ifugao</option>
+                    <option value="Tt">Tawi tawi</option>
+                    <option value="Gt">General Trias</option>
+                    <option value="Pg">Pagudpud</option>
+                  </select>
                 </div>
+              </div>
+              <div id="shipfee">
+                <div class="sep">Shipping Fee</div>
+                <div>36 pesos</div>
+              </div>
             </div>
+          </div>
+          <div id="shoppingguarantee">shopping guarantee</div>
+          <div id="model">model</div>
+          <div id="quanitity">quantity</div>
+          <div id="addtocart&buy">add to cart and buy now</div>
         </div>
-        <div id="Deets">
-            <div id="productname"><h2>Product name </h2></div>
-            <div id="ratings"> 
-                <div class="nums">4.9
-                    <img class="star" src="../resource/img/goldstar.png">
-                    <img class="star" src="../resource/img/goldstar.png">
-                    <img class="star" src="../resource/img/goldstar.png">
-                    <img class="star" src="../resource/img/goldstar.png">
-                    <img class="star" src="../resource/img/goldstar.png">
-                </div>
-                <div id="ratingscount">
-                    <div class="nums"> 29 </div>
-                    <div id="ratinglabel">Ratings</div>
-                </div>
-            </div>
-            <div id="bgprice">
-                <div id="price"> 399</div>
-            </div>
-            <div id="moredeets">
-                <div id="vouchers"> shop vouchers
-                    <div id="minivouchers"> 2%off 3%off 5%off</div>
-                </div>
-                <div id="shipping"> shipping </div>
-                <div id="shoppingguarantee"> shopping guarantee</div>
-                <div id="model"> model</div>
-                <div id="quanitity"> quantity</div>
-                <div id="addtocart&buy"> add to cart and buy now</div>
-            </div>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

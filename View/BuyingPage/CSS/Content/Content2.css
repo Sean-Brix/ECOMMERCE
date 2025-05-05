@@ -1,11 +1,78 @@
-#moredeets{
-    height: 500px;
-    width: 94%;
-    padding: 0 20px 0 20px;
-    margin-top: 20px;
-}   
-#vouchers{
-    display: flex;
-    flex-direction: row;
-    font-family: Arial, Helvetica, sans-serif;
+#moredeets {
+  height: 500px;
+  width: 94%;
+  padding: 0 20px 0 20px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#vouchers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.percentoff {
+  background-color: rgba(149, 77, 216, 0.411);
+  margin: 0 10px 0 10px;
+  border: 1px solid rgb(203, 78, 241);
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.peso {
+  height: 20px;
+}
+#voucherlabel {
+  font-size: 14px;
+  color: gray;
+}
+#shiplabel {
+  font-size: 14px;
+  color: gray;
+  padding: 5px;
+  width: 15%;
+}
+#shippingsection {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 20px 0;
+  font-size: 15px;
+}
+
+#shippingdeets {
+  display: flex;
+  flex-direction: column;
+}
+#shiplocation {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+#shipfee {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.sep {
+  margin-right: 35px;
+}
+
+#truckicon {
+  height: 30px;
+  margin: 0 3px 0 3px;
+}
+
+/* DROP DOWN STYLE */
+
+#locationsDropdown {
+  border: none;
+  background: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#languageDropdown option {
+  font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,87 +1,90 @@
-#container{
-    height: 1000px;
-    width: 63%;
-    background-color: rgb(235, 235, 235);
-    justify-self: center;
-    display: flex;
-    flex-direction: row;
+#container {
+  height: 1000px;
+  width: 63%;
+  background-color: rgb(235, 235, 235);
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
 }
-#Pics{
-    width: 40%;
-    border: 1px solid black;
-    padding: 15px;
+#Pics {
+  width: 40%;
+  border: 1px solid black;
+  padding: 15px;
 }
-#Deets{
-    width: 60%;
-    padding: 20px;
-    border: 1px solid black;
+#Deets {
+  width: 60%;
+  padding: 20px;
+  border: 1px solid black;
 }
-#ColPics{
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 550px;
-    border: 1px solid black;
+#ColPics {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 550px;
+  border: 1px solid black;
 }
-#otherpics{
-    width: 100%;
-    height: 95px;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
- 
+#otherpics {
+  width: 100%;
+  height: 95px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
 }
-.otherP{
-    width: 80px;
-    padding: 8px;
-    height: 80px;
+.otherP {
+  width: 80px;
+  padding: 8px;
+  height: 80px;
 }
-h2{
-    margin: 0;
+h2 {
+  margin: 0;
 }
-#productname{
-    width: 100%;
-    height: 50px;
-    text-wrap: wrap;
-    border: 1px solid black;
-    font-family: Arial, Helvetica, sans-serif;
+#productname {
+  width: 100%;
+  height: 50px;
+  text-wrap: wrap;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#ratings{
-    margin: 10px 0 10px 0;
-    height: 25px;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#ratings {
+  margin: 10px 0 10px 0;
+  height: 25px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.nums{
-    padding-left: 5px;
+.nums {
+  padding-left: 5px;
 }
-.star{
-    height: 13px;
+.star {
+  height: 13px;
 }
-#ratingscount{
-    display: flex;
-    flex-direction: row;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    margin: 0 15px 0 15px;
+#ratingscount {
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin: 0 8px 0 15px;
 }
-#ratinglabel{
-    margin: 0 10px 0 10px;
-    font-size: 14px;
-    opacity: 50%;
+#soldcount {
+  display: flex;
+  flex-direction: row;
 }
-#bgprice{
-    background-color: antiquewhite;
-    height: 30px;
-    width: 95.4%;
-    padding: 15px;
+#ratinglabel {
+  margin: 0 10px 0 10px;
+  font-size: 14px;
+  opacity: 50%;
 }
-#price{
-    width: 50%;
-    height: 32px;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+#bgprice {
+  background-color: antiquewhite;
+  height: 30px;
+  width: 95.4%;
+  padding: 15px;
+}
+#price {
+  width: 50%;
+  height: 32px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
