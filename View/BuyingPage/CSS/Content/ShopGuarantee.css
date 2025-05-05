@@ -1,0 +1,21 @@
+#shoppingguarantee {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.label {
+  color: gray;
+  font-size: 14px;
+  width: 40%;
+  height: 35px;
+}
+#color {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+button {
+  width: 155px;
+  height: 40px;
+}

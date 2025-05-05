@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buying Page</title>
     <link rel="stylesheet" href="./CSS/Nav/Nav.css" />
-    <link rel="stylesheet" href="./CSS/Content/Content.css" />
-    <link rel="stylesheet" href="./CSS/Content/Content2.css" />
+    <link rel="stylesheet" href="./CSS/Content/ProductNameToPrice.css" />
+    <link rel="stylesheet" href="./CSS/Content/ShopVoucherToShipping.css" />
+    <link rel="stylesheet" href="./CSS/Content/ShopGuarantee.css" />
   </head>
   <body>
     <!-- NAVIGATION BAR ------------------------------------------ NAVIGATION BAR --------------------------------------------- NAVIGATION BAR -->
@@ -56,6 +57,7 @@
         </div>
       </div>
     </nav>
+    <!-- CONTENT ------------------------------------------ CONTENT --------------------------------------------- CONTENT -->
 
     <div id="container">
       <div id="Pics">
@@ -69,6 +71,9 @@
           </div>
         </div>
       </div>
+
+      <!-- PRODUCT DETAILS ------------------------------------------ PRODUCT DETAILS--------------------------------------------- PRODUCT DETAILS -->
+
       <div id="Deets">
         <div id="productname"><h2>Product name</h2></div>
         <div id="ratings">
@@ -84,6 +89,8 @@
             <div class="nums">29</div>
             <div id="ratinglabel">Ratings</div>
           </div>
+          <div class="nums">16</div>
+          <div id="soldlabel">Sold</div>
         </div>
         <div id="bgprice">
           <div id="price">399</div>
@@ -107,7 +114,9 @@
               <img class="peso" src="../resource/img/peso.png" />8 OFF
             </div>
           </div>
+          <!-- VOUCHER CODE ENDS HERE -->
 
+          <!-- SHIPPING SECTION STARTS HERE -->
           <div id="shippingsection">
             <div id="shiplabel">Shipping</div>
             <img id="truckicon" src="../resource/icon/delivery-truck.png" />
@@ -130,8 +139,34 @@
               </div>
             </div>
           </div>
-          <div id="shoppingguarantee">shopping guarantee</div>
-          <div id="model">model</div>
+          <!-- SHIPPNG SECTION ENDS HERE -->
+
+          <!--SHOPPING GUARANTEE AND SO ON STARTS HERE-->
+          <div id="shoppingguarantee">
+            <div class="label">
+              Shopping <br />
+              Guarantee
+            </div>
+            <div>
+              <select id="locationsDropdown">
+                <option id="shopgar" disabled>Shopping Guarantee</option>
+                <option value="Fe">Free and Easy Returns</option>
+                <option value="Lpg">Lowest Price Guarantee</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="color">
+            <div class="label">Color</div>
+            <div>
+              <button>Green</button>
+              <button>Black</button>
+              <button>Blue</button>
+              <button>Purple</button>
+              <button>Orange</button>
+              <button>Grey</button>
+            </div>
+          </div>
           <div id="quanitity">quantity</div>
           <div id="addtocart&buy">add to cart and buy now</div>
         </div>

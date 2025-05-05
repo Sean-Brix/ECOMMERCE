@@ -28,7 +28,6 @@
 #shiplabel {
   font-size: 14px;
   color: gray;
-  padding: 5px;
   width: 15%;
 }
 #shippingsection {
@@ -37,7 +36,6 @@
   margin: 20px 0 20px 0;
   font-size: 15px;
 }
-
 #shippingdeets {
   display: flex;
   flex-direction: column;
@@ -47,7 +45,6 @@
   flex-direction: row;
   padding: 5px;
 }
-
 #shipfee {
   display: flex;
   flex-direction: row;
@@ -56,7 +53,6 @@
 .sep {
   margin-right: 35px;
 }
-
 #truckicon {
   height: 30px;
   margin: 0 3px 0 3px;
