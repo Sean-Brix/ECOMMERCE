@@ -25,3 +25,21 @@ button {
   display: flex;
   flex-direction: row;
 }
+.quantity-input {
+  border-radius: 8px;
+  font-size: 17px;
+}
+input[type="number"] {
+  font-size: 18px;
+  border: 2px solid #888;
+  border-radius: 8px;
+  width: 100px;
+  text-align: center;
+  padding-left: 10px;
+}
+
+input[type="number"]:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
