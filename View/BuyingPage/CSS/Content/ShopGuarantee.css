@@ -19,3 +19,9 @@ button {
   width: 155px;
   height: 40px;
 }
+#qtty {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
