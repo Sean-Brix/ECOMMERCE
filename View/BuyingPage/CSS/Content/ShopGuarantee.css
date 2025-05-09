@@ -18,9 +18,10 @@
 button {
   width: 155px;
   height: 40px;
+  margin: 0 0 5px 0;
 }
 #qtty {
-  margin-top: 30px;
+  margin: 35px 0 30px 0;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -31,15 +32,41 @@ button {
 }
 input[type="number"] {
   font-size: 18px;
-  border: 2px solid #888;
+  border: 1px solid #c639e2;
   border-radius: 8px;
   width: 100px;
   text-align: center;
   padding-left: 10px;
 }
-
 input[type="number"]:focus {
-  border-color: #4caf50;
+  border-color: #b140dd;
   outline: none;
-  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  box-shadow: 0 0 5px rgba(139, 45, 182, 0.5);
+}
+#quantity {
+  width: 125px;
+}
+#addtocartnbuy {
+  position: relative;
+}
+.addcartnbuy {
+  width: 200px;
+  height: 48px;
+  cursor: pointer;
+}
+#addToCart {
+  border: 1px solid #b533e9;
+  background-color: #b140dd1c;
+  margin: 0 10px 0 50px;
+}
+#addToCart:hover {
+  background-color: #fbe9ff;
+}
+#BuyNow {
+  background-color: #b533e9;
+  border: none;
+  color: white;
+}
+#BuyNow:hover {
+  background-color: #ba4ce6;
 }
