@@ -46,18 +46,18 @@ input[type="number"]:focus {
 #quantity {
   width: 125px;
 }
-#addtocartnbuy {
-  position: relative;
-}
 .addcartnbuy {
   width: 200px;
   height: 48px;
   cursor: pointer;
 }
+#addtocartnbuy {
+  margin-top: 40px;
+}
 #addToCart {
   border: 1px solid #b533e9;
   background-color: #b140dd1c;
-  margin: 0 10px 0 50px;
+  margin: 0 10px 0 100px;
 }
 #addToCart:hover {
   background-color: #fbe9ff;
