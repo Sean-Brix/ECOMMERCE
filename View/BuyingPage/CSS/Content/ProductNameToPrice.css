@@ -47,14 +47,22 @@ h2 {
   font-size: 15px;
 }
 #bgprice {
-  background-color: antiquewhite;
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgba(202, 19, 248, 0.144);
+  border-radius: 2px;
   height: 30px;
   width: 95.4%;
   padding: 15px;
 }
 #price {
+  display: flex;
+  align-items: center;
   width: 50%;
   height: 32px;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+}
+#pesosign {
+  height: 35px;
+  margin-bottom: 3px;
 }

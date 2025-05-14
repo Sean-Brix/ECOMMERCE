@@ -11,12 +11,13 @@
   align-items: center;
 }
 .percentoff {
-  background-color: rgba(186, 129, 240, 0.418);
+  background-color: rgba(186, 129, 240, 0.336);
   margin: 0 10px 0 10px;
   border: 1px solid rgb(203, 78, 241);
   display: flex;
   align-items: center;
   font-size: 13px;
+  width: 68px;
 }
 .peso {
   height: 20px;
