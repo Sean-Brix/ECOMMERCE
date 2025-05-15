@@ -1,650 +1,794 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product By Categories</title>
-    <link rel="stylesheet" href="./CSS/Header/Header.css">
-    <link rel="stylesheet" href="./CSS/Nav/Nav.css">
-    <link rel="stylesheet" href="./CSS/Content/Content.css">
-    <link rel="stylesheet" href="./CSS/Content/SideBar.css">
-    <link rel="stylesheet" href="./CSS/Footer/Footer.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./CSS/Header/Header.css" />
+    <link rel="stylesheet" href="./CSS/Nav/Nav.css" />
+    <link rel="stylesheet" href="./CSS/Content/Content.css" />
+    <link rel="stylesheet" href="./CSS/Content/SideBar.css" />
+    <link rel="stylesheet" href="./CSS/Footer/Footer.css" />
+  </head>
+  <body>
     <!-- NAVIGATION BAR ------------------------------------------ NAVIGATION BAR --------------------------------------------- NAVIGATION BAR -->
 
     <nav>
-        <div>
-            <a href="../MainPage/MainPage.html"><img id="mainlogo" src="../resource/img/Elibs ka na-Photoroom.png" ></a>
+      <div>
+        <a href="../MainPage/MainPage.html"
+          ><img id="mainlogo" src="../resource/img/Elibs ka na-Photoroom.png"
+        /></a>
+      </div>
+      <input
+        type="text"
+        name="searchbar"
+        id="searchbar"
+        placeholder="Search in Men's Apparel"
+      />
+      <img id="cart" src="../resource/icon/whitecart-Photoroom.png" />
+      <div id="NavbarSpecs">
+        <div class="sep">
+          <div class="SpecsDesign">
+            <img id="accicon" src="../resource/icon/acc-Photoroom.png" />
+            Account
+          </div>
+          <div class="SpecsDesign">
+            <img
+              id="bell"
+              src="../resource/icon/bell-Photoroom.png"
+            />Notification
+          </div>
+          <div class="SpecsDesign">Seller Centre</div>
+          <div class="SpecsDesign">
+            Follow us on
+            <img id="ig" src="../resource/icon/ig-Photoroom.png" />
+            <img id="fb" src="../resource/icon/fb.png" />
+          </div>
         </div>
-        <input type="text" name="searchbar" id="searchbar" placeholder="Search in Men's Apparel">
-        <img id="cart" src="../resource/icon/whitecart-Photoroom.png">
-        <div id="NavbarSpecs">
-            <div class="sep">
-                <div class="SpecsDesign"> <img id="accicon" src="../resource/icon/acc-Photoroom.png" > Account</div>
-                <div class="SpecsDesign"> <img id="bell" src="../resource/icon/bell-Photoroom.png">Notification</div>
-                <div class="SpecsDesign">Seller Centre</div> 
-                <div class="SpecsDesign">Follow us on 
-                    <img id="ig" src="../resource/icon/ig-Photoroom.png"> <img id="fb" src="../resource/icon/fb.png"></div>                     
-            </div>
-            <div class="sep">               
-                <div class="SpecsDesign"><img id="help" src="../resource/icon/helpicon-Photoroom.png">Help</div>
-                <div class="SpecsDesign"><img id="globe" 
-                    src="../resource/icon/globe-Photoroom.png"> Language 
-                    <select id="languageDropdown">
-                        <option value="en">English</option>
-                        <option value="es">Spanish</option>
-                        <option value="fr">French</option>
-                        <option value="de">German</option>
-                        <option value="zh">Chinese</option>
-                    </select>
-                </div>   
-                <div class="SpecsDesign" id="signup">Sign up</div>
-                <div class="SpecsDesign" id="login"> <a id="loginpage" href="../LoginPage/LoginPage.html"> Login </a> </div>
-            </div>  
+        <div class="sep">
+          <div class="SpecsDesign">
+            <img id="help" src="../resource/icon/helpicon-Photoroom.png" />Help
+          </div>
+          <div class="SpecsDesign">
+            <img id="globe" src="../resource/icon/globe-Photoroom.png" />
+            Language
+            <select id="languageDropdown">
+              <option value="en">English</option>
+              <option value="es">Spanish</option>
+              <option value="fr">French</option>
+              <option value="de">German</option>
+              <option value="zh">Chinese</option>
+            </select>
+          </div>
+          <div class="SpecsDesign" id="signup">Sign up</div>
+          <div class="SpecsDesign" id="login">
+            <a id="loginpage" href="../LoginPage/LoginPage.html"> Login </a>
+          </div>
         </div>
+      </div>
     </nav>
-
 
     <!-- HEADER WITH IMAGE SLIDER------------------------------HEADER WITH IMAGE SLIDER------------------------------------HEADER WITH IMAGE SLIDER---->
 
-    <div id="header">     
-        <header class="slider-container">
-            <!-- Slider Inputs (Radio buttons to control slides) -->
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            
-            <!-- Slides (Images) -->
-            <div class="slides">
-            <img src="../resource/img/MENS APPAREL/Clothingbrand1.jpg" >
-            <img src="../resource/img/MENS APPAREL/Clothingbrand2.jpg" >
-            <img src="../resource/img/MENS APPAREL/Clothingbrand3.jpg" >
-            <img src="../resource/img/MENS APPAREL/Clothingbrand4.jpg" >
-            
-            </div>
-  
-            <!-- Navigation buttons (Optional for custom navigation) -->
-            <label for="slide1" class="prev">&#10094;</label>
-            <label for="slide2" class="next">&#10095;</label>                   
-        </header>     
+    <div id="header">
+      <header class="slider-container">
+        <!-- Slider Inputs (Radio buttons to control slides) -->
+        <input type="radio" name="slider" id="slide1" checked />
+        <input type="radio" name="slider" id="slide2" />
+        <input type="radio" name="slider" id="slide3" />
+
+        <!-- Slides (Images) -->
+        <div class="slides">
+          <img src="../resource/img/MENS APPAREL/Clothingbrand1.jpg" />
+          <img src="../resource/img/MENS APPAREL/Clothingbrand2.jpg" />
+          <img src="../resource/img/MENS APPAREL/Clothingbrand3.jpg" />
+          <img src="../resource/img/MENS APPAREL/Clothingbrand4.jpg" />
+        </div>
+
+        <!-- Navigation buttons (Optional for custom navigation) -->
+        <label for="slide1" class="prev">&#10094;</label>
+        <label for="slide2" class="next">&#10095;</label>
+      </header>
     </div>
-
-
-
-
 
     <!-- CONTENT---CONTENT---CONTENT---CONTENT--CONTENT---CONTENT---CONTENT------CONTENT----CONTENT--- CONTENT---CONTENT----CONTENT----CONTENT---CONTENT----CONTENT----CONTENT----CONTENT----CONTENT-----CONTENT---->
 
     <div id="Container">
-
-         <!-- Side Bar------------------------------Side Bar------------------------------------Side Bar---->
-        <div id="sidebar">
-            <div class="Categories">
-                <div class="Label"> <img src="../resource/img/Categoriesicon.png">
-                     All Categories</div>
-                <a href="#"> Men's Apparel</a>
-                <a href="#"> Tops</a>
-                <a href="#"> Shorts</a>
-                <a href="#"> Pants</a>
-                <a href="#"> Jeans</a>
-                <a href="#"> Underwear</a>
-            </div>
-
-            <!-- Search Filter -->
-            <div id="SearchFilter">
-                <div class="Categories">
-                    <div class="Label"><img src="../resource/img/Filtericon.png">Search Filter</div>
-                   
-                    <form>
-                        <input type="radio" id="option1" name="group1" value="Option 1">
-                        <label for="option1">T-Shirts</label><br>
-                      
-                        <input type="radio" id="option2" name="group1" value="Option 2">
-                        <label for="option2">Shirts</label><br>
-                      
-                        <input type="radio" id="option3" name="group1" value="Option 3">
-                        <label for="option3">Shorts</label><br>
-
-                        <input type="radio" id="option3" name="group1" value="Option 3">
-                        <label for="option3">Innerwear & Underwear</label>
-                        
-                      </form>                                        
-                </div>
-            </div>
-
-
-            <!-- Stars ------------Stars --------------Stars -->
-            <div id="Rating">
-                <div class="Categories">
-                    <div class="Label">Rating</div>
-                    <div id="starsholder">
-                        <div class="rating" name="rating1">
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                        </div>
-                        <div class="rating" name="rating2">
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            & Up
-                        </div>
-                        <div class="rating" name="rating3">
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            & Up
-                        </div>
-                        <div class="rating" name="rating4">
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            & Up
-                        </div>
-                        <div class="rating" name="rating5">
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconfull-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            <a class="anchorStar" href="#"><img class="star" src="../resource/img/stariconempty-Photoroom.png"></a>
-                            & Up
-                        </div>
-                    </div>    
-                </div>
-            </div>
+      <!-- Side Bar------------------------------Side Bar------------------------------------Side Bar---->
+      <div id="sidebar">
+        <div class="Categories">
+          <div class="Label">
+            <img src="../resource/img/Categoriesicon.png" /> All Categories
+          </div>
+          <a href="#"> Men's Apparel</a>
+          <a href="#"> Tops</a>
+          <a href="#"> Shorts</a>
+          <a href="#"> Pants</a>
+          <a href="#"> Jeans</a>
+          <a href="#"> Underwear</a>
         </div>
 
-    <!-- SORTING BAR------------------------------SORTING BAR------------------------------------SORTING BAR---->
-
-        <div id="products">
-            <div id="sortbybar">   
-                <div id="SortBy">           
-                    Sort By
-                </div>  
-                <div id="Popular">
-                    Popular
-                </div>
-                <div id="Latest">
-                    Latest
-                </div>
-                
-                <div class="dropdown">
-                    <label for="priceSort">Price:</label>
-                    <select id="priceSort">
-                      <option value="highToLow">High to Low</option>
-                      <option value="lowToHigh">Low to High</option>
-                    </select>
-                </div>
-
-                <div id="PageChange">
-                    <div class="lessthangrtthan">
-                        <
-                    </div>
-                    <div class="lessthangrtthan">
-                        >
-                    </div>
-                </div>
-
+        <!-- Search Filter -->
+        <div id="SearchFilter">
+          <div class="Categories">
+            <div class="Label">
+              <img src="../resource/img/Filtericon.png" />Search Filter
             </div>
-            <div id="Grid">
-                <div id="parent">
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel1.jpg">
-                            <div class="Details">
-                                <div id="holder">
-                                    <div class="ProductLabel">
-                                        Air Jorban
-                                    </div> 
-                                    <div class="ProductSaleStatus">
-                                        Sulit Deal
-                                    </div>
-                                    <div class="ProductPrice">
-                                        <img class="peso" src="../resource/img/peso.png">
-                                        10,000
-                                        <div class="buycount">10k+ sold</div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel2.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Varsity Jacket
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    830
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel3.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Jacket Estetik
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    400
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel4.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Pants pang Sheesh
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    610
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel5.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                   Off White Maangas
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    20,000
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel6.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    NY Cap
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    500
-                                    <div class="buycount">8k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel7.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Astroboy Cap
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    980
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel8.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    OS Universe
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    670
-                                    <div class="buycount">9k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel9.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    OS Tokyo
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    129
-                                    <div class="buycount">7k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel10.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    G CASHK
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    3,799
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel11.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Relo 
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    1,450
-                                    <div class="buycount">6k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel12.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Energy Shorts
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    230
-                                    <div class="buycount">50k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/DlyProdPics/shoesgreen.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Nike Toffer Signature
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    4,799
-                                    <div class="buycount">99k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel13.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Shorts din
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    399
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel115.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Brooklyn White
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    950
-                                    <div class="buycount">8k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel16.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Stussy wawai
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    5,299
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/DlyProdPics/sldies.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Slidez
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    250
-                                    <div class="buycount">5k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel17.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Wawai din
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    2,460
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel18.jpg">
-                            <div class="Details">
-                                <div id="holder">
-                                    <div class="ProductLabel">
-                                        Pants
-                                    </div> 
-                                    <div class="ProductSaleStatus">
-                                        Sulit Deal
-                                    </div>
-                                    <div class="ProductPrice">
-                                        <img class="peso" src="../resource/img/peso.png">
-                                        669
-                                        <div class="buycount">3k+ sold</div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="Product">
-                        <img class="Prodpicts" src="../resource/img/MENS APPAREL/Mensapparel19.jpg">
-                        <div class="Details">
-                            <div id="holder">
-                                <div class="ProductLabel">
-                                    Pantalon may dragon
-                                </div>
-                                <div class="ProductSaleStatus">
-                                    Sulit Deal
-                                </div>
-                                <div class="ProductPrice">
-                                    <img class="peso" src="../resource/img/peso.png">
-                                    830
-                                    <div class="buycount">10k+ sold</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
+            <form>
+              <input type="radio" id="option1" name="group1" value="Option 1" />
+              <label for="option1">T-Shirts</label><br />
 
+              <input type="radio" id="option2" name="group1" value="Option 2" />
+              <label for="option2">Shirts</label><br />
 
-                </div>
-            </div>
+              <input type="radio" id="option3" name="group1" value="Option 3" />
+              <label for="option3">Shorts</label><br />
+
+              <input type="radio" id="option3" name="group1" value="Option 3" />
+              <label for="option3">Innerwear & Underwear</label>
+            </form>
+          </div>
         </div>
+
+        <!-- Stars ------------Stars --------------Stars -->
+        <div id="Rating">
+          <div class="Categories">
+            <div class="Label">Rating</div>
+            <div id="starsholder">
+              <div class="rating" name="rating1">
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+              </div>
+              <div class="rating" name="rating2">
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                & Up
+              </div>
+              <div class="rating" name="rating3">
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                & Up
+              </div>
+              <div class="rating" name="rating4">
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                & Up
+              </div>
+              <div class="rating" name="rating5">
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconfull-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                <a class="anchorStar" href="#"
+                  ><img
+                    class="star"
+                    src="../resource/img/stariconempty-Photoroom.png"
+                /></a>
+                & Up
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SORTING BAR------------------------------SORTING BAR------------------------------------SORTING BAR---->
+
+      <div id="products">
+        <div id="sortbybar">
+          <div id="SortBy">Sort By</div>
+          <div id="Popular">Popular</div>
+          <div id="Latest">Latest</div>
+
+          <div class="dropdown">
+            <label for="priceSort">Price:</label>
+            <select id="priceSort">
+              <option value="highToLow">High to Low</option>
+              <option value="lowToHigh">Low to High</option>
+            </select>
+          </div>
+
+          <div id="PageChange">
+            <div class="lessthangrtthan"><</div>
+            <div class="lessthangrtthan">></div>
+          </div>
+        </div>
+        <div id="Grid">
+          <div id="parent">
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel1.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Air Jorban</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    10,000
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel2.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Varsity Jacket</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    830
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel3.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Jacket Estetik</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    400
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel4.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Pants pang Sheesh</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img class="peso" src="../resource/img/peso.png" />
+                    610
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel5.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Off White Maangas</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    20,000
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel6.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">NY Cap</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    500
+                    <div class="buycount">8k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel7.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Astroboy Cap</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    980
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel8.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">OS Universe</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    670
+                    <div class="buycount">9k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel9.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">OS Tokyo</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    129
+                    <div class="buycount">7k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel10.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">G CASHK</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    3,799
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel11.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Relo</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    1,450
+                    <div class="buycount">6k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel12.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Energy Shorts</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    230
+                    <div class="buycount">50k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/DlyProdPics/shoesgreen.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Nike Toffer Signature</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    4,799
+                    <div class="buycount">99k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel13.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Shorts din</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    399
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel115.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Brooklyn White</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    950
+                    <div class="buycount">8k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel16.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Stussy wawai</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    5,299
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/DlyProdPics/sldies.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Slidez</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    250
+                    <div class="buycount">5k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel17.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Wawai din</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    2,460
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel18.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Pants</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    669
+                    <div class="buycount">3k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="Product">
+              <img
+                class="Prodpicts"
+                src="../resource/img/MENS APPAREL/Mensapparel19.jpg"
+              />
+              <div class="Details">
+                <div id="holder">
+                  <div class="ProductLabel">Pantalon may dragon</div>
+                  <div class="ProductSaleStatus">Sulit Deal</div>
+                  <div class="ProductPrice">
+                    <img
+                      class="peso"
+                      src="../resource/img/Angelespesosign.png"
+                    />
+                    830
+                    <div class="buycount">10k+ sold</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-   <!-- FOOTER-----------------------------------------------------------FOOTER----------------------------------------------------FOOTER---->
+    <!-- FOOTER-----------------------------------------------------------FOOTER----------------------------------------------------FOOTER---->
 
+    <button id="logintoseemorebtn" name="LoginToSeeMorebtn">
+      Login to See More
+    </button>
 
-   <button id="logintoseemorebtn" name="LoginToSeeMorebtn"> Login to See More </button>
+    <hr id="hrto" />
 
-   <hr id="hrto">
-
-   <footer id="footernanginamo">
-       <div id="footerbody">
-           <span>
-               <h2>Buy and Sell Online on Elibs Ka na PH</h2>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima 
-               corporis ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
-               Laborum voluptatum excepturi voluptatibus sequi sunt! Labore minima corporis 
-               beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-               Debitis minima corporis ratione voluptatem magni alias tempora maiores culpa 
-               itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
-               minima corporis beatae?Lorem ipsum dolor sit amet, consectetur adipisicing 
-               elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-               culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                   Labore minima corporis beatae?
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima 
-               corporis ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
-               Laborum voluptatum excepturi voluptatibus sequi sunt! Labore minima corporis 
-               beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-               Debitis minima corporis ratione voluptatem magni alias tempora maiores culpa 
-               itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
-               minima corporis beatae?Lorem ipsum dolor sit amet, consectetur adipisicing 
-               elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-               culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                   Labore minima corporis beatae?
-               <h2>Experience a Shopping Spree of a Lifetime on Elibs Ka na PH</h2>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima 
-               corporis ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
-               Laborum voluptatum excepturi voluptatibus sequi sunt! Labore minima corporis 
-               beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-               Debitis minima corporis ratione voluptatem magni alias tempora maiores culpa 
-               itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
-               minima corporis beatae?Lorem ipsum dolor sit amet, consectetur adipisicing 
-               elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-               culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                   Labore minima corporis beatae?
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima 
-               corporis ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
-               <br><br><br>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima 
-               corporis ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
-               Laborum voluptatum excepturi voluptatibus sequi sunt! Labore minima corporis 
-               beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-               Debitis minima corporis ratione voluptatem magni alias tempora maiores culpa 
-               itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
-               minima corporis beatae?Lorem ipsum dolor sit amet, consectetur adipisicing 
-               elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-               culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                   Labore minima corporis beatae?
-                   <h2>Get Free Shipping on Elibs Ka na PH</h2>
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima 
-               corporis ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
-               Laborum voluptatum excepturi voluptatibus sequi sunt! Labore minima corporis 
-               beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-               Debitis minima corporis ratione voluptatem magni alias tempora maiores culpa 
-               itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
-               minima corporis beatae?Lorem ipsum dolor sit amet, consectetur adipisicing 
-               elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-               culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                   Labore minima corporis beatae?
-                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima 
-               minima corporis beatae?Lorem ipsum dolor sit amet, consectetur adipisicing 
-               elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-               culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                   Labore minima corporis beatae?  elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-                   culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                       Labore minima corporis beatae?Labore minima corporis beatae?
-                       elit. Debitis minima corporis ratione voluptatem magni alias tempora maiores
-                       culpa itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
-                           Labore minima corporis beatae?
-               </span>
-       </div>
-   </footer>
-
-</body>
+    <footer id="footernanginamo">
+      <div id="footerbody">
+        <span>
+          <h2>Buy and Sell Online on Elibs Ka na PH</h2>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+          minima corporis ratione voluptatem magni alias tempora maiores culpa
+          itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
+          Labore minima corporis beatae?Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima corporis ratione voluptatem magni
+          alias tempora maiores culpa itaque aliquid! Laborum voluptatum
+          excepturi voluptatibus sequi sunt! Labore minima corporis beatae?Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima
+          corporis ratione voluptatem magni alias tempora maiores culpa itaque
+          aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
+          minima corporis beatae? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima corporis ratione voluptatem magni
+          alias tempora maiores culpa itaque aliquid! Laborum voluptatum
+          excepturi voluptatibus sequi sunt! Labore minima corporis beatae?Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima
+          corporis ratione voluptatem magni alias tempora maiores culpa itaque
+          aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
+          minima corporis beatae?Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima corporis ratione voluptatem magni
+          alias tempora maiores culpa itaque aliquid! Laborum voluptatum
+          excepturi voluptatibus sequi sunt! Labore minima corporis beatae?
+          <h2>Experience a Shopping Spree of a Lifetime on Elibs Ka na PH</h2>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+          minima corporis ratione voluptatem magni alias tempora maiores culpa
+          itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
+          Labore minima corporis beatae?Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima corporis ratione voluptatem magni
+          alias tempora maiores culpa itaque aliquid! Laborum voluptatum
+          excepturi voluptatibus sequi sunt! Labore minima corporis beatae?Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima
+          corporis ratione voluptatem magni alias tempora maiores culpa itaque
+          aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
+          minima corporis beatae? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima corporis ratione voluptatem magni
+          alias tempora maiores culpa itaque aliquid!
+          <br /><br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+          minima corporis ratione voluptatem magni alias tempora maiores culpa
+          itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
+          Labore minima corporis beatae?Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima corporis ratione voluptatem magni
+          alias tempora maiores culpa itaque aliquid! Laborum voluptatum
+          excepturi voluptatibus sequi sunt! Labore minima corporis beatae?Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima
+          corporis ratione voluptatem magni alias tempora maiores culpa itaque
+          aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
+          minima corporis beatae?
+          <h2>Get Free Shipping on Elibs Ka na PH</h2>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+          minima corporis ratione voluptatem magni alias tempora maiores culpa
+          itaque aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt!
+          Labore minima corporis beatae?Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima corporis ratione voluptatem magni
+          alias tempora maiores culpa itaque aliquid! Laborum voluptatum
+          excepturi voluptatibus sequi sunt! Labore minima corporis beatae?Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima
+          corporis ratione voluptatem magni alias tempora maiores culpa itaque
+          aliquid! Laborum voluptatum excepturi voluptatibus sequi sunt! Labore
+          minima corporis beatae? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Debitis minima minima corporis beatae?Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Debitis minima corporis
+          ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
+          Laborum voluptatum excepturi voluptatibus sequi sunt! Labore minima
+          corporis beatae? elit. Debitis minima corporis ratione voluptatem
+          magni alias tempora maiores culpa itaque aliquid! Laborum voluptatum
+          excepturi voluptatibus sequi sunt! Labore minima corporis
+          beatae?Labore minima corporis beatae? elit. Debitis minima corporis
+          ratione voluptatem magni alias tempora maiores culpa itaque aliquid!
+          Laborum voluptatum excepturi voluptatibus sequi sunt! Labore minima
+          corporis beatae?
+        </span>
+      </div>
+    </footer>
+  </body>
 </html>
